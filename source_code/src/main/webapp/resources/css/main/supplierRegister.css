@@ -1,0 +1,52 @@
+.bg-register-img {
+  background: url("https://marketeers.com/wp-content/uploads/2019/02/b_10102018oH3MUrcmjUPqjod4oJQqiZEYI.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-customizer {
+  /* The image used */
+  background-color: #101010;
+
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form.supplier .custom-checkbox.small label {
+  line-height: 1.5rem;
+}
+
+form.supplier .form-control-supplier {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 1.5rem 1rem;
+}
+
+form.supplier .btn-supplier {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+
+#addNewSupplier {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+#addNewSupplier:hover {
+  color: #ffffff !important;
+  background: #101010;
+  border-color: #101010 !important;
+  transition: all 0.4s ease 0s;
+}

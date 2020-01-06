@@ -1,0 +1,76 @@
+.bg-register-img {
+	background:
+		url("https://image.freepik.com/free-photo/single-white-question-mark-blue-background-with-copy-blank-space_105589-268.jpg");
+	background-position: 80%;
+	background-size: cover;
+}
+
+.bg-customizer {
+	/* The image used */
+	background-color: #584053;
+	/* Half height */
+	height: 50%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+form.inputInfo .custom-checkbox.small label {
+	line-height: 1.5rem;
+}
+
+form.inputInfo .form-control-inputInfo {
+	font-size: 0.8rem;
+	border-radius: 10rem;
+	padding: 1.5rem 1rem;
+}
+
+form.inputInfo .btn-inputInfo {
+	font-size: 0.8rem;
+	border-radius: 10rem;
+	padding: 0.75rem 1rem;
+}
+
+#addNewInputInfo {
+	color: #494949 !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #ffffff;
+	padding: 20px;
+	border: 4px solid #494949 !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+}
+
+#addNewInputInfo:hover {
+	color: #ffffff !important;
+	background: #584053;
+	border-color: #584053 !important;
+	transition: all 0.4s ease 0s;
+}
+
+.my-select {
+	margin: auto;
+}
+
+#OptionSelectProduct {
+	border-radius: 10rem;
+	text-align-last:center;
+	font-size: 0.9rem;
+}
+
+.label {
+	font-weight: bold;
+	padding-left: 10px;
+	font-style: oblique;
+	text-decoration: underline;
+	color: navy;
+	
+}
+
+#OptionSelectSuppliver {
+	border-radius: 10rem;
+	text-align-last:center;
+	font-size: 0.9rem;
+}

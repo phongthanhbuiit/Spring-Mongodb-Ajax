@@ -1,0 +1,52 @@
+.bg-register-img {
+  background: url("https://clipartstation.com/wp-content/uploads/2018/10/two-people-shaking-hands-clipart-6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-customizer {
+  /* The image used */
+  background-color: #36304a;
+
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form.measure .custom-checkbox.small label {
+  line-height: 1.5rem;
+}
+
+form.measure .form-control-measure {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 1.5rem 1rem;
+}
+
+form.measure .btn-measure {
+  font-size: 0.8rem;
+  border-radius: 10rem;
+  padding: 0.75rem 1rem;
+}
+
+#editMeasure {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+#editMeasure:hover {
+  color: #ffffff !important;
+  background: #36304a;
+  border-color: #36304a !important;
+  transition: all 0.4s ease 0s;
+}

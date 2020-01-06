@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Inventory.OutputInfos"}],"uuid":"be8018685c4245fbaa818c00a811d6fa"}

@@ -1,0 +1,169 @@
+#filldiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fill-button {
+  position: relative;
+  overflow:hidden;
+  display:inline-block;
+  width:600px;
+  height:50px;
+  border:1px solid #420420;
+  text-align:center;
+  font-size: 20pt;
+  box-sizing:border-box;
+  color:chocolate;
+  text-decoration:none;
+  cursor: pointer;
+  line-height:28px;
+  font-family: 'Courier'; 
+  border-radius: 4px;
+}
+.fill-button > span {
+  display:block;
+  padding-top: 4px;
+}
+.fill-button > .fill-button-hover:after, .fill-button > .fill-button-hover:before {
+  position:absolute;
+  top:0;
+  opacity:0;
+  display:block;
+  content:"";
+  width:0;
+  height:50px;
+}
+.fill-button > .fill-button-hover:after {
+  background-color: #420420;
+  transform:skewX(45deg);
+  transform-origin:center;
+  transition:all .35s, opacity .4s;
+  left:50%;
+}
+.fill-button .fill-button-hover:before {
+  background-color: white;
+  transition:opacity 1s;
+}
+
+.fill-button .fill-button-text {
+  z-index:1;
+  position:relative;
+  color:#36304a;
+  transition:color .35s;
+}
+.fill-button:hover .fill-button-text {
+  color: whitesmoke;
+}
+.fill-button .fill-button-hover:hover:after {
+  opacity:1;
+  left:2%;
+  width:95%;
+  transform:skewX(45deg);
+}
+.fill-button > .fill-button-hover:hover:before {
+  opacity: 1;
+  left: 0;
+  width:100%;
+}
+
+.btn-delete {
+	background-color: red;
+}
+
+.btn-delete i{
+	color: ghostwhite;
+}
+
+.btn-delete:hover{
+	background-color: darkred;
+}
+
+.btn-delete i:hover{
+	color: darkgray;
+
+}
+
+.btn-detail {
+	background-color: greenyellow;
+}
+
+.btn-detail i{
+	color: darkslateblue;
+}
+
+.btn-detail:hover{
+	background-color: dodgerblue;
+}
+
+.btn-detail i:hover{
+	color: ghostwhite;
+
+}
+
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #420420;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+
+.table th{
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+
